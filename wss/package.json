@@ -1,0 +1,21 @@
+{
+    "name": "wss",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "ts-node ./src/index.js",
+        "build": "tsc --build --clean && tsc",
+        "dev": "cross-env NODE_ENV=development nodemon",
+        "lint": "eslint './*/**/*.ts' --quiet --fix",
+        "format": "prettier --write \"src/**/*.ts\""
+    },
+    "prettier": {
+        "printWidth": 120
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ws": "^8.11.0"
+    }
+}
