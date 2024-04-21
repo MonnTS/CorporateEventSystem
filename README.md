@@ -34,7 +34,7 @@ For this project H2 database will be used to store all the data.
 ### RUNNING THE PROJECT
 1. Clone the Git Repository
   ```bash
-    git clone https://git.fdmgroup.com/Daniil.Zuyeu/fdmcorporateevent.git
+    git clone https://github.com/MonnTS/CorporateEventSystem
  ```
 1. Project Setup
 
